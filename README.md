@@ -48,4 +48,4 @@ https://kanvas.jsonkim.com
 
 ## Preview
 
-<img src="src/images/demosmaller.gif">
+<img src="src/images/screenshot.gif">
