@@ -21,6 +21,7 @@ https://kanvas.jsonkim.com
 13. Each card has a context menu you can access through right-click (desktop)
 14. Each card has a context menu you can access through long-press (mobile)
 15. All data is saved to LocalStorage and loaded from it when the app is executed or reloaded
+16. The application supports mobile-responsive
 
 ## Technologies Used
 * React.js
