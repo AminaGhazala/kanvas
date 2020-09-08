@@ -1,68 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Kanvas
+A kanban board application with drag and drop, context menu and all editing features
 
-## Available Scripts
+## Live Demo
+https://kanvas.jsonkim.com
 
-In the project directory, you can run:
+## Features
+1. When the application starts, it has 3 empty columns: "Todo", "In progress", "Done"
+2. Each column has a "+" button and users can click this button to create a task card in any column
+3. Users can change the order of columns using drag-and-drop
+4. Users can create columns
+5. Users can edit column titles
+6. Users can delete columns
+7. Users can create tasks
+8. Users can move tasks between columns using drag-and-drop
+9. Users can can delete a task.
+10. Users can edit task titles and descriptions
+11. Users can add images as attachments to cards and the app can save images to LocalStorage
+12. Users can move tasks between columns using the "Move" button in the context menu
+13. Each card has a context menu you can access through right-click (desktop)
+14. Each card has a context menu you can access through long-press (mobile)
+15. All data is saved to LocalStorage and loaded from it when the app is executed or reloaded
 
-### `npm start`
+## Technologies Used
+* React.js
+* Bootstrap
+* HTML5
+* CSS3
+* AWS EC2
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
+1. Clone the repository and navigate to the directory
+``` cd kanvas ```
+2. Install all dependencies ``` npm install ```
+3. Compile project ``` npm run start ```
+4. Access application by entering [https://localhost:3000](https://localhost:3000) in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Lessons Learned
+* Utilizing React Beautiful Drag and Drop(DnD)
+* Utilizing React Context Menu
+* Building code blocks for saving images to LocalStorage
+* Creating an application in a group-environment in a given short period of time (3days)
 
-### `npm test`
+## Preview
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<img src="src/images/demosmaller.gif">
