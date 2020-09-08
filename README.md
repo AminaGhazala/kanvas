@@ -1,5 +1,6 @@
 # Kanvas
 A kanban board application with drag and drop, context menu and all editing features
+* [MintBean 3 Day JavaScript Bootcamp Olympics](https://sites.google.com/mintbean.io/javascriptbootcampolympics/home)
 
 ## Live Demo
 https://kanvas.jsonkim.com
@@ -30,13 +31,20 @@ https://kanvas.jsonkim.com
 
 ## Getting Started
 #### 1. Clone the repository and navigate to the directory
-#### `cd kanvas `
+```shell
+git clone https://github.com/jasonkim-jk/kanvas.git
+cd kanvas
+```
 
 #### 2. Install all dependencies
-#### `npm install `
+```shell
+npm install
+```
 
 #### 3. Compile project
-#### `npm run start `
+```shell
+npm run start
+```
 
 #### 4. Access application by entering [https://localhost:3000](https://localhost:3000) in the browser.
 
