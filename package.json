@@ -1,6 +1,6 @@
 {
-  "name": "js-hackathon-olympics",
-  "version": "0.1.0",
+  "name": "kanvas",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -34,5 +34,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://kanban.nathanreitan.com"
+  "homepage": "https://kanvas.jsonkim.com"
 }
