@@ -29,16 +29,16 @@ https://kanvas.jsonkim.com
 * AWS EC2
 
 ## Getting Started
-### `cd kanvas `
-###
-1. Clone the repository and navigate to the directory
-### `npm install `
-###
-2. Install all dependencies
-### `npm run start `
-###
-3. Compile project
-4. Access application by entering [https://localhost:3000](https://localhost:3000) in the browser.
+#### 1. Clone the repository and navigate to the directory
+#### `cd kanvas `
+
+#### 2. Install all dependencies
+#### `npm install `
+
+#### 3. Compile project
+#### `npm run start `
+
+#### 4. Access application by entering [https://localhost:3000](https://localhost:3000) in the browser.
 
 ## Lessons Learned
 * Utilizing React Beautiful Drag and Drop(DnD)
