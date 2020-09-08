@@ -29,10 +29,15 @@ https://kanvas.jsonkim.com
 * AWS EC2
 
 ## Getting Started
-1. Clone the repository and navigate to the directory
-``` cd kanvas ```
-2. Install all dependencies ``` npm install ```
-3. Compile project ``` npm run start ```
+### `1. cd kanvas `
+###
+* Clone the repository and navigate to the directory
+### `2. npm install `
+###
+* Install all dependencies
+### `3. npm run start `
+###
+* Compile project
 4. Access application by entering [https://localhost:3000](https://localhost:3000) in the browser.
 
 ## Lessons Learned
