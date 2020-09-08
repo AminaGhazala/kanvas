@@ -1,5 +1,6 @@
 # Kanvas
 A kanban board application with drag and drop, context menu and all editing features
+* [MintBean 3 Day JavaScript Bootcamp Olympics](https://sites.google.com/mintbean.io/javascriptbootcampolympics/home)
 
 ## Live Demo
 https://kanvas.jsonkim.com
@@ -29,16 +30,23 @@ https://kanvas.jsonkim.com
 * AWS EC2
 
 ## Getting Started
-### `cd kanvas `
-###
-1. Clone the repository and navigate to the directory
-### `npm install `
-###
-2. Install all dependencies
-### `npm run start `
-###
-3. Compile project
-4. Access application by entering [https://localhost:3000](https://localhost:3000) in the browser.
+#### 1. Clone the repository and navigate to the directory
+```shell
+git clone https://github.com/jasonkim-jk/kanvas.git
+cd kanvas
+```
+
+#### 2. Install all dependencies
+```shell
+npm install
+```
+
+#### 3. Compile project
+```shell
+npm run start
+```
+
+#### 4. Access application by entering [https://localhost:3000](https://localhost:3000) in the browser.
 
 ## Lessons Learned
 * Utilizing React Beautiful Drag and Drop(DnD)
